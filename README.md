@@ -1,1 +1,0 @@
-# minhtridang.mini.project
