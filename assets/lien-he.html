@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Liên Hệ - Góp ý bài làm</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="top-title">
+    <h1>KẾT NỐI & ĐÓNG GÓP Ý KIẾN HỆ THỐNG</h1>
+  </header>
+
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">🏠 TRANG CHỦ</a></li>
+      <li><a href="tin-tuc.html">TIN TỨC WEB</a></li>
+      <li><a href="lien-he.html" class="active">LIÊN HỆ</a></li>
+    </ul>
+  </nav>
+
+  <div class="single-container" style="max-width: 600px; margin: 0 auto;">
+    <h2>📩 Form Đăng Ký Nhận Bản Tin & Góp Ý</h2>
+    
+    <form class="contact-form" onsubmit="alert('Cảm ơn bạn đã gửi liên hệ!'); return false;">
+      <div class="form-group">
+        <label for="fullname">Họ và tên tác giả:</label>
+        <input type="text" id="fullname" value="Nguyễn Võ Rin Đô" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Địa chỉ Email:</label>
+        <input type="email" id="email" placeholder="nhap-email@gmail.com" required>
+      </div>
+
+      <div class="form-group">
+        <label for="message">Nội dung đóng góp / Lời nhắn nộp bài:</label>
+        <textarea id="message" rows="5" required>Em đã hoàn thiện cấu trúc cây thư mục đề xuất bao gồm css/, js/, index.html, các trang con liên kết và tệp tài liệu README.md chuẩn.</textarea>
+      </div>
+
+      <button type="submit" class="btn-submit">Gửi thông tin nộp bài</button>
+    </form>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
